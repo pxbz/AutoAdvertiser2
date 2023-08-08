@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "autoadvertiser2",
+  "version": "${version}",
+  "name": "AutoAdvertiser2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/AutoAdvertiser2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.pxbz.autoadvertiser2.client.AutoAdvertiser2Client"
+    ],
+    "main": [
+      "me.pxbz.autoadvertiser2.AutoAdvertiser2"
+    ]
+  },
+  "mixins": [
+    "AutoAdvertiser2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
